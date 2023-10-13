@@ -62,5 +62,34 @@ public class Main {
                     System.out.println("no such function!");
             }
         }
+        /*//test addproduct
+//        Admin admin = new Admin(10l,"admin1","2501577489@qq.com","202117");
+        Scanner scanner = new Scanner(System.in);
+//        addproduct
+        System.out.println("please enter a string as object:");
+        obj = scanner.next();
+        System.out.println("please enter productid:");
+        long productId = Long.parseLong(scanner.next());
+        System.out.println("please enter name:");
+        String name = scanner.next();
+        System.out.println("please enter price:");
+        int price = Integer.parseInt(scanner.next());
+        System.out.println("please enter stock:");
+        int stock = Integer.parseInt(scanner.next());
+        Product obj = new Product(productId,name,price,stock);
+        admin.addProduct(obj);
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>product list as follow<<<<<<<<<<<<<<<<<<<<");
+        Map<Long, Product> productMap = Product.productMap;
+        System.out.println("productId---name---price--stock");
+        for (long productID : productMap.keySet()) {
+            Product product = productMap.get(productID);
+            if (product != null) {
+                //展示这个商品对象
+                System.out.println(product.getProductId() + "---------" + product.getName() + "-----" + product.getPrice() + "----" + product.getStockQuantity());
+            }
+        }
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>product list as above<<<<<<<<<<<<<<<<<<<<");
+        
+         */
     }
 }
